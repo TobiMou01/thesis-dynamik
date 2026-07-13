@@ -1,0 +1,33 @@
+# 1 Einleitung
+
+## 1.1 Problemstellung
+
+Finanzkennzahlen sind das zentrale Instrument der Unternehmensanalyse. Investoren nutzen sie, um Portfolioentscheidungen zu treffen, Kreditgeber verwenden sie zur Risikobeurteilung, und Manager steuern ihre Unternehmen anhand quartalsbezogener Zielwerte. Die wissenschaftliche Literatur hat sich intensiv mit der Frage beschäftigt, welches *Niveau* einer Kennzahl als günstig gilt und wie sich Niveaus über die Zeit entwickeln — insbesondere im Bereich der Earnings-Persistenz (Dichev und Tang, 2009; Fairfield und Yohn, 2001). Deutlich weniger erforscht ist eine grundlegendere Frage: Wie verhalten sich die *Veränderungen* von Finanzkennzahlen über die Zeit? Korrigieren sich Quartalsveränderungen systematisch, und gibt es dabei Unterschiede zwischen Kennzahlentypen?
+
+Ein konkretes Beispiel verdeutlicht die Relevanz dieser Frage. Molson Coors (TAP), ein Getränkehersteller, und Qualcomm (QCOM), ein Halbleiterkonzern, unterscheiden sich in Branche, Größe und Profitabilitätsniveau. Betrachtet man jedoch die Quartalsveränderungen ihrer Profitabilität, zeigt sich bei beiden ein gemeinsames Muster: Auf ein positives Quartal ($\Delta \text{ROA} > 0$) folgt häufig ein negatives — und umgekehrt. Die Autokorrelation der ROA-Veränderungen liegt bei beiden Unternehmen nahe $-0{,}43$. Diese systematische Umkehr reflektiert einen Korrekturmechanismus, bei dem temporäre Effekte (Einmalerlöse, saisonale Spitzen) sich im Folgequartal zurückbilden. Doch gilt derselbe Mechanismus auch für Bilanz- und Liquiditätskennzahlen? Oder verhalten sich verschiedene Kennzahlentypen fundamental unterschiedlich?
+
+Die vorliegende Arbeit untersucht diese Fragen systematisch. Sie analysiert die Dynamik von sieben Finanzkennzahlen — vier Profitabilitätskennzahlen (ROA, ROE, EBIT-Marge, FCF-Marge), eine Liquiditätskennzahl (Current Ratio) und zwei Kapitalstruktur-Kennzahlen (Debt-to-Equity, Eigenkapitalquote) — für 932 Unternehmen des S\&P 1500 über 100 Quartale (Q1/2000 bis Q4/2024). Das methodische Werkzeug ist ein AR(1)-Modell auf ersten Differenzen: $\Delta Y(t) = c + \varphi_1 \cdot \Delta Y(t-1) + \varepsilon(t)$. Der Koeffizient $\varphi_1$ misst, wie stark sich eine Quartalsveränderung im Folgequartal korrigiert ($\varphi_1 < 0$: Mean-Reversion) oder fortsetzt ($\varphi_1 > 0$: Persistenz). Die Standardabweichung der Differenzen $\sigma(\Delta Y)$ erfasst die Veränderungsvolatilität. Beide Parameter zusammen — Korrekturgeschwindigkeit und Schwankungsbreite — bilden ein zweidimensionales Dynamikprofil, das für jedes Unternehmen und jede Kennzahl geschätzt wird.
+
+## 1.2 Forschungsfragen
+
+Drei Forschungsfragen strukturieren die Analyse:
+
+**FF1: Weisen Finanzkennzahlen systematische, messbare Unterschiede in ihrem Quartals-zu-Quartals-Veränderungsverhalten auf?** Diese Frage prüft, ob es eine Hierarchie der Veränderungsdynamik gibt — ob sich Profitabilitätskennzahlen also anders verhalten als Liquiditäts- oder Kapitalstrukturkennzahlen. Sie untersucht, ob die Unterschiede modellübergreifend robust und stichprobenunabhängig sind.
+
+**FF2: Wie hängen die Dynamikmuster verschiedener Finanzkennzahlen zusammen, und wie manifestieren sie sich in Phasen erhöhter Marktvolatilität?** Diese Frage differenziert zwischen querschnittlicher Interdependenz (bewegen sich die Dynamikmuster innerhalb eines Unternehmens als Block oder unabhängig?) und zeitlicher Manifestation (hat die statische Klassifikation prädiktive Kraft für das Verhalten in Krisenphasen?).
+
+**FF3: Welche externen Strukturmerkmale — Branche und Unternehmensgröße — beeinflussen die Zuordnung eines Unternehmens zu einem Dynamiktyp?** Diese Frage validiert, ob die aus dem AR-Modell abgeleitete Klassifikation ökonomisch interpretierbar ist oder ein statistisches Artefakt darstellt. Sie prüft, ob die zwei Dimensionen des Dynamikprofils (Korrekturgeschwindigkeit und Volatilität) durch unterschiedliche externe Faktoren getrieben werden.
+
+## 1.3 Aufbau der Arbeit
+
+Die Arbeit folgt einer aufbauenden Logik in fünf Stufen.
+
+![Abb. 1.1: Aufbau der Arbeit. Die fünf Stufen bauen aufeinander auf: Kapitel 1–3 definieren das Phänomen und die Forschungslücke, Kapitel 4 begründet das methodische Werkzeug, Kapitel 5 zeigt das zentrale Muster (FF1), Kapitel 6–7 vertiefen es durch Interdependenzanalyse (FF2) und externe Validierung (FF3), und Kapitel 8–9 ordnen die Befunde ein.](Kapitel_1_Grafiken/abb_1_1_aufbau.png)
+
+Kapitel 2 legt die theoretischen Grundlagen: Es definiert die sieben Kennzahlen, führt die Konzepte Mean-Reversion und Persistenz ein, begründet die Veränderungsperspektive (erste Differenzen) im Kontrast zur Niveauperspektive und entwickelt die Quadrantenklassifikation als zweidimensionales Analyseframework. Kapitel 3 ordnet die Arbeit in den Stand der Forschung ein. Es positioniert den eigenen Beitrag relativ zur bestehenden Literatur — insbesondere zu Dichev und Tang (2009), Fairfield und Yohn (2001) sowie Fama und French (1992) — und identifiziert die Forschungslücke, die diese Arbeit schließt.
+
+Kapitel 4 beschreibt die Methodik: Datenbasis (S\&P 1500, Compustat-Quarterly), Aufbereitungslogik (Filterkette, Winsorizing), das AR(1)-Modell auf ersten Differenzen als Hauptmodell sowie die Quadrantenklassifikation über den Median-Split. Es begründet die methodischen Entscheidungen — insbesondere den Trade-off zwischen einheitlicher Transformation und metrisch-spezifischer Optimalität — und stellt die vier ergänzenden Modellvarianten (Levels, AR(2), saisonale Differenzen) vor, die als Robustheitscheck dienen.
+
+Kapitel 5 beantwortet FF1: Es zeigt die Drei-Schichten-Hierarchie der Veränderungsdynamik, analysiert die sektorale Heterogenität innerhalb der Schichten und prüft die Robustheit über vier Modellvarianten und vier Stichprobengrößen. Kapitel 6 beantwortet FF2: Es untersucht die querschnittliche Interdependenz der Dynamikmuster (schichtinterne Kohärenz vs. schichtübergreifende Unabhängigkeit) und ihre zeitliche Manifestation in datengetrieben identifizierten Krisenphasen. Kapitel 7 beantwortet FF3: Es validiert die Quadrantenklassifikation über Brancheneffekte ($\chi^2$-Tests), Größeneffekte (Spearman-Korrelationen), K-Means-Clustering als multivariaten Robustheitscheck und eine separate Analyse des regulierten Finanzsektors.
+
+Kapitel 8 diskutiert die ökonomische Interpretation der Befunde, ordnet sie in die bestehende Literatur ein, benennt die Limitationen transparent und skizziert praktische Implikationen. Kapitel 9 fasst die Kernaussagen zusammen, benennt den wissenschaftlichen Beitrag der Arbeit und gibt einen Ausblick auf zukünftige Forschungsrichtungen.

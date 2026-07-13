@@ -1,0 +1,20 @@
+# Generated outputs (regenerate via scripts)
+output/
+
+# Raw source data (regenerate via eu_data_fetch scripts)
+data/raw/
+Anhang/data/
+eu_data_fetch/data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+~$*.docx
+~$*.pptx
+~$*.xlsx

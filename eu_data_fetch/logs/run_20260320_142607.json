@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260320_142607",
+  "exchanges": [
+    "LSE",
+    "XETRA",
+    "PA",
+    "AS",
+    "SW",
+    "MI",
+    "MC",
+    "ST",
+    "CO",
+    "OL",
+    "HE",
+    "BR",
+    "VI",
+    "ISE",
+    "LS",
+    "WA",
+    "AT",
+    "BUD",
+    "PR"
+  ],
+  "min_market_cap": 300000000,
+  "stats": {
+    "success": 91,
+    "skipped_mc": 63,
+    "failed": 6,
+    "processed": 160
+  },
+  "failed_tickers": [
+    "0B2.XETRA",
+    "1AST.VI",
+    "AIA.AT",
+    "AKTR.AT",
+    "AMIXA.BUD",
+    "EFORU.PR"
+  ]
+}

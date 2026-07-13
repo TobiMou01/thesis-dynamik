@@ -1,0 +1,531 @@
+Exposé zur Masterarbeit
+
+Finanzielle Stabilität als Qualitätsmerkmal
+
+Eine empirische Analyse der Kennzahlen-Dynamik börsennotierter
+Unternehmen
+
+Masterstudiengang Business Management
+
+Schwerpunkt: Financial Management
+
+Technische Hochschule Wildau
+
+Vorgelegt von: Tobias Murier
+
+Dezember 2024
+
+Kurzfassung
+
+Diese Masterarbeit untersucht die finanzielle Stabilität börsennotierter
+Unternehmen als Qualitätsmerkmal aus Investorenperspektive. Anhand einer
+internationalen Stichprobe werden Unternehmen nach der Stabilität ihrer
+Finanzkennzahlen klassifiziert und die resultierenden Stabilitätsprofile
+charakterisiert.
+
+Der methodische Ansatz kombiniert deskriptive Zeitreihenanalyse mit
+einer einfachen Gruppierungsmethode. Zunächst werden Stabilitätsmetriken
+(Volatilität, Trend, Konsistenz) für zentrale Finanzkennzahlen
+berechnet. Anschließend werden Unternehmen anhand dieser Metriken zu
+Stabilitätsprofilen gruppiert. Der Schwerpunkt liegt auf der
+betriebswirtschaftlichen Interpretation: Was charakterisiert stabile vs.
+volatile Unternehmen? Welche Rolle spielen Branche, Größe und
+Geschäftsmodell?
+
+Die Ergebnisse liefern praktische Erkenntnisse für Investoren, Analysten
+und Controller zur Einschätzung von Unternehmensqualität jenseits reiner
+Performance-Kennzahlen.
+
+1\. Problemstellung und Motivation
+
+1.1 Ausgangssituation
+
+Investoren, Analysten und Kreditgeber stützen ihre Entscheidungen auf
+Finanzkennzahlen. Dabei steht typischerweise die aktuelle Performance im
+Vordergrund: Wie profitabel ist das Unternehmen heute? Wie hoch ist die
+Verschuldung aktuell? Diese Momentaufnahme vernachlässigt jedoch eine
+wesentliche Dimension: die Stabilität dieser Kennzahlen über Zeit.
+
+Ein Unternehmen mit einer ROA von 10% kann sehr unterschiedlich bewertet
+werden, je nachdem ob diese Rentabilität seit Jahren konstant ist, stark
+schwankt, oder einen klaren Auf- bzw. Abwärtstrend zeigt. Die zeitliche
+Dynamik von Kennzahlen enthält somit wertvolle Informationen über
+Unternehmensqualität, die in klassischen Bewertungsansätzen oft
+untergeht.
+
+1.2 Praktische Relevanz
+
+Die Frage nach Stabilität ist aus mehreren Perspektiven relevant:
+
+-   **Investoren:** Stabile Unternehmen ermöglichen verlässlichere
+    Prognosen und reduzieren Unsicherheit im Portfolio.
+
+-   **Kreditgeber:** Volatilität in Cashflow und Verschuldung
+    signalisiert erhöhtes Ausfallrisiko.
+
+-   **Management/Controller:** Planungssicherheit erfordert Verständnis
+    der eigenen Kennzahlen-Dynamik.
+
+-   **Analysten:** Peer-Group-Vergleiche werden aussagekräftiger, wenn
+    Stabilitätsprofile berücksichtigt werden.
+
+1.3 Forschungslücke
+
+Während die Analyse einzelner Finanzkennzahlen gut etabliert ist, fehlt
+ein systematischer Rahmen zur Klassifikation von Unternehmen nach ihrer
+Kennzahlen-Stabilität. Bestehende Ansätze fokussieren entweder auf
+einzelne Kennzahlen (z.B. Earnings Volatility) oder auf komplexe
+Risikomodelle. Diese Arbeit schließt die Lücke durch einen integrativen,
+aber methodisch zugänglichen Ansatz.
+
+2\. Forschungsfragen und Zielsetzung
+
+2.1 Zentrale Forschungsfrage
+
+Lassen sich börsennotierte Unternehmen systematisch nach der Stabilität
+ihrer Finanzkennzahlen klassifizieren, und was charakterisiert die
+resultierenden Stabilitätsprofile?
+
+2.2 Teilfragen
+
+1.  **Messung:** Wie lässt sich die Stabilität von Finanzkennzahlen
+    operationalisieren und messen?
+
+2.  **Klassifikation:** Welche Stabilitätsprofile lassen sich empirisch
+    identifizieren?
+
+3.  **Charakterisierung:** Wodurch unterscheiden sich stabile von
+    volatilen Unternehmen (Branche, Größe, Geschäftsmodell)?
+
+4.  **Praxisrelevanz:** Welche Implikationen ergeben sich für Investoren
+    und Analysten?
+
+2.3 Zielsetzung
+
+Die Arbeit verfolgt drei Ziele:
+
+1.  **Methodisch:** Entwicklung eines nachvollziehbaren Rahmens zur
+    Stabilitätsmessung und -klassifikation.
+
+2.  **Empirisch:** Identifikation und Charakterisierung typischer
+    Stabilitätsprofile anhand realer Unternehmensdaten.
+
+3.  **Praktisch:** Ableitung von Handlungsempfehlungen für die
+    Bewertungspraxis.
+
+3\. Theoretischer Rahmen
+
+3.1 Kennzahlenanalyse in der Unternehmensbewertung
+
+Die Kennzahlenanalyse ist ein etabliertes Instrument der
+Unternehmensanalyse. Traditionelle Systeme wie das DuPont-Schema oder
+das ROI-Kennzahlensystem liefern strukturierte Rahmen zur Analyse von
+Rentabilität, Liquidität und Kapitalstruktur. Diese Ansätze fokussieren
+typischerweise auf Stichtagswerte oder Periodenvergleiche, weniger auf
+die dynamische Entwicklung über längere Zeiträume.
+
+3.2 Stabilität als Qualitätsdimension
+
+Die Qualität von Unternehmensergebnissen wird in der Literatur unter dem
+Begriff \'Earnings Quality\' diskutiert. Wesentliche Dimensionen sind
+Persistenz (wie dauerhaft sind Erträge?), Vorhersagbarkeit (wie gut
+lassen sich zukünftige Erträge prognostizieren?) und Volatilität (wie
+stark schwanken Erträge?). Diese Arbeit erweitert diesen Ansatz auf ein
+breiteres Spektrum von Finanzkennzahlen.
+
+3.3 Konzeptioneller Rahmen dieser Arbeit
+
+Die Stabilitätsanalyse operationalisiert drei Dimensionen pro Kennzahl:
+
+  -------------------------------------------------------------------------
+  **Dimension**     **Messung**                 **Interpretation**
+  ----------------- --------------------------- ---------------------------
+  **Volatilität**   Standardabweichung über     Wie stark schwankt die
+                    Zeit                        Kennzahl?
+
+  **Trend**         Steigung der linearen       Verbessert oder
+                    Regression                  verschlechtert sich die
+                                                Kennzahl?
+
+  **Konsistenz**    R² der Trend-Regression     Wie vorhersagbar ist die
+                                                Entwicklung?
+  -------------------------------------------------------------------------
+
+Diese drei Dimensionen werden für mehrere zentrale Kennzahlen berechnet
+und bilden die Grundlage für die anschließende Gruppierung zu
+Stabilitätsprofilen.
+
+4\. Methodik
+
+Die Methodik folgt einem vierstufigen Prozess: Datenaufbereitung →
+Stabilitätsmessung → Gruppierung → Interpretation. Der Fokus liegt
+bewusst auf methodischer Klarheit und Nachvollziehbarkeit.
+
+4.1 Datengrundlage
+
+Datenquelle
+
+Die Finanzdaten werden über die Financial Modeling Prep (FMP) API
+bezogen. Diese Quelle bietet internationale Abdeckung (70.000+
+Unternehmen, 60+ Börsen), historische Tiefe (bis zu 30 Jahre), und
+standardisierte Datenformate. Der Zugang ist für akademische Zwecke
+kostengünstig möglich.
+
+Stichprobe
+
+Geplante Stichprobe:
+
+-   300--500 internationale Unternehmen (primär USA, Europa)
+
+-   Zeitraum: 10 Jahre (2014--2023) mit jährlichen Daten
+
+-   Ausschluss: Finanzsektor (andere Kennzahlenstruktur)
+
+-   Mindestanforderung: 7+ Jahre durchgängige Daten pro Unternehmen
+
+Kennzahlen
+
+  -------------------------------------------------------------------------
+  **Kategorie**       **Kennzahlen**              **Fokus**
+  ------------------- --------------------------- -------------------------
+  Profitabilität      ROA, ROE, EBIT-Marge        Ertragskraft
+
+  Liquidität          Current Ratio, Quick Ratio  Zahlungsfähigkeit
+
+  Verschuldung        Debt/Equity,                Kapitalstruktur
+                      Eigenkapitalquote           
+
+  Cashflow            FCF-Marge, Cash Conversion  Innenfinanzierungskraft
+  -------------------------------------------------------------------------
+
+4.2 Stabilitätsmessung
+
+Für jede Kennzahl und jedes Unternehmen werden drei Stabilitätsmetriken
+berechnet:
+
+4.2.1 Volatilität (Standardabweichung)
+
+Die Volatilität misst, wie stark eine Kennzahl um ihren Mittelwert
+schwankt. Sie wird als Standardabweichung über den Beobachtungszeitraum
+berechnet. Hohe Werte signalisieren Instabilität, niedrige Werte
+Konstanz. Um Vergleichbarkeit zwischen Kennzahlen zu gewährleisten, wird
+zusätzlich der Variationskoeffizient (Standardabweichung/Mittelwert)
+herangezogen.
+
+4.2.2 Trend (lineare Regression)
+
+Der Trend beschreibt die systematische Entwicklungsrichtung einer
+Kennzahl. Er wird als Steigung (Slope) einer linearen Regression der
+Kennzahl über die Zeit ermittelt. Ein positiver Trend bei
+Rentabilitätskennzahlen signalisiert Verbesserung, bei
+Verschuldungskennzahlen Verschlechterung. Die Interpretation ist somit
+kennzahlenspezifisch.
+
+4.2.3 Konsistenz (R²)
+
+Die Konsistenz misst, wie gut der Trend die tatsächliche Entwicklung
+erklärt. Sie wird als Bestimmtheitsmaß (R²) der Trend-Regression
+ausgedrückt. Ein hoher R²-Wert (nahe 1) bedeutet, dass die Entwicklung
+einem klaren Muster folgt -- ob steigend, fallend oder konstant. Ein
+niedriger Wert signalisiert erratische Schwankungen ohne erkennbares
+Muster.
+
+4.3 Gruppierung zu Stabilitätsprofilen
+
+4.3.1 Methode: K-Means Clustering
+
+Die Gruppierung erfolgt mittels K-Means Clustering -- einem etablierten,
+gut verständlichen Verfahren. K-Means teilt die Unternehmen so in
+Gruppen (Cluster) auf, dass die Unternehmen innerhalb einer Gruppe
+möglichst ähnlich sind (geringe Varianz innerhalb der Cluster) und sich
+die Gruppen möglichst unterscheiden (hohe Varianz zwischen den
+Clustern).
+
+**Wichtige Abgrenzung:** Die Gruppierungsmethode ist in dieser Arbeit
+ein Werkzeug, nicht der Forschungsbeitrag. Der Fokus liegt auf der
+Interpretation der resultierenden Profile, nicht auf methodischen
+Vergleichen verschiedener Algorithmen.
+
+4.3.2 Bestimmung der Gruppenanzahl
+
+Die optimale Anzahl der Gruppen wird über den Silhouette-Score bestimmt.
+Dieser misst, wie gut jedes Unternehmen zu seiner zugewiesenen Gruppe
+passt (Kohäsion) im Vergleich zur Ähnlichkeit zu anderen Gruppen
+(Separation). Ergänzend wird die Elbow-Methode herangezogen, die den
+Punkt identifiziert, ab dem zusätzliche Gruppen kaum noch Varianz
+erklären.
+
+4.3.3 Erwartete Profile
+
+Basierend auf der Literatur und logischen Überlegungen werden Profile
+wie diese erwartet:
+
+  ----------------------------------------------------------------------------
+  **Profil**          **Volatilität**   **Trend**         **Charakteristik**
+  ------------------- ----------------- ----------------- --------------------
+  Stabile Performer   Niedrig           Neutral/Positiv   Verlässlich,
+                                                          berechenbar
+
+  Volatile            Hoch              Positiv           Dynamisch,
+  Wachstumsfirmen                                         risikoreich
+
+  Absteigende         Mittel/Hoch       Negativ           Warnsignal
+
+  Erratische          Sehr hoch         Unklar            Unberechenbar
+  ----------------------------------------------------------------------------
+
+4.4 Charakterisierung und Interpretation
+
+Die identifizierten Profile werden anschließend charakterisiert durch:
+
+-   **Branchenverteilung:** Dominieren bestimmte Branchen in bestimmten
+    Profilen?
+
+-   **Größenverteilung:** Sind große Unternehmen stabiler als kleine?
+
+-   **Kennzahlen-Niveaus:** Wie unterscheiden sich die absoluten
+    Kennzahlenwerte zwischen den Profilen?
+
+-   **Performance-Zusammenhang:** Korreliert Stabilität mit finanzieller
+    Performance?
+
+5\. Methodische Grundlagen
+
+Dieses Kapitel erläutert die verwendeten Techniken im Detail. Es dient
+dem Verständnis der Methodik und kann als Referenz für die praktische
+Umsetzung herangezogen werden.
+
+5.1 Deskriptive Zeitreihenanalyse
+
+5.1.1 Grundbegriffe
+
+Eine Zeitreihe ist eine Folge von Beobachtungen, die zu
+aufeinanderfolgenden Zeitpunkten erfasst wurden. Im Kontext dieser
+Arbeit bilden die jährlichen Werte einer Finanzkennzahl (z.B. ROA 2014,
+ROA 2015, \..., ROA 2023) eine Zeitreihe. Die Analyse solcher Reihen
+ermöglicht Aussagen über Entwicklungsmuster, Trends und Volatilität.
+
+5.1.2 Statistische Maße
+
+**Mittelwert (μ):** Der arithmetische Durchschnitt aller Beobachtungen.
+Gibt das typische Niveau der Kennzahl an.
+
+**Standardabweichung (σ):** Misst die durchschnittliche Abweichung vom
+Mittelwert. Je höher, desto stärker streuen die Werte. Formel: Wurzel
+aus dem Durchschnitt der quadrierten Abweichungen vom Mittelwert.
+
+**Variationskoeffizient (CV):** Standardabweichung dividiert durch
+Mittelwert (σ/μ). Ermöglicht den Vergleich von Volatilitäten zwischen
+Kennzahlen mit unterschiedlichen Skalen.
+
+5.1.3 Lineare Regression für Trendermittlung
+
+Die lineare Regression ermittelt eine Gerade, die den Zusammenhang
+zwischen Zeit (unabhängige Variable) und Kennzahl (abhängige Variable)
+am besten beschreibt. Die Gleichung lautet: y = a + b\*x, wobei \'b\'
+die Steigung (Slope) ist und angibt, um wie viel sich die Kennzahl
+durchschnittlich pro Jahr verändert.
+
+**Slope (Steigung):** Positive Werte = Aufwärtstrend, negative Werte =
+Abwärtstrend, Werte nahe Null = kein Trend.
+
+**R² (Bestimmtheitsmaß):** Liegt zwischen 0 und 1. Gibt an, welcher
+Anteil der Varianz durch den Trend erklärt wird. R² = 0.8 bedeutet: 80%
+der Schwankungen folgen dem Trend, 20% sind zufällige Abweichungen.
+
+5.2 K-Means Clustering
+
+5.2.1 Grundprinzip
+
+K-Means ist ein Verfahren zur Gruppierung von Datenpunkten in k Cluster.
+Das Ziel ist es, die Daten so aufzuteilen, dass die Varianz innerhalb
+jeder Gruppe minimiert wird. Jeder Cluster wird durch seinen Schwerpunkt
+(Centroid) repräsentiert -- den Mittelwert aller Punkte in diesem
+Cluster.
+
+5.2.2 Algorithmus
+
+1.  Wähle k initiale Cluster-Zentren (zufällig oder systematisch)
+
+2.  Weise jeden Datenpunkt dem nächstgelegenen Zentrum zu
+
+3.  Berechne neue Zentren als Mittelwert der zugewiesenen Punkte
+
+4.  Wiederhole Schritte 2--3 bis sich die Zuweisungen nicht mehr ändern
+
+5.2.3 Wahl der Clusteranzahl
+
+**Elbow-Methode:** Plottet die Within-Cluster-Varianz gegen die Anzahl
+der Cluster. Der \'Ellbogen\' - der Punkt, ab dem zusaetzliche Cluster
+kaum noch Verbesserung bringen - gibt eine Orientierung.
+
+**Silhouette-Score:** Misst für jeden Punkt, wie ähnlich er seinem
+eigenen Cluster ist verglichen mit dem nächstgelegenen anderen Cluster.
+Werte nahe 1 = gute Trennung, nahe 0 = Grenzfälle, negativ =
+möglicherweise falsch zugeordnet. Der Durchschnitt über alle Punkte gibt
+die Gesamtqualität an.
+
+5.2.4 Voraussetzungen und Standardisierung
+
+K-Means basiert auf euklidischen Distanzen und ist daher empfindlich
+gegenüber unterschiedlichen Skalen. Wenn eine Kennzahl in Prozent
+(0--20) und eine andere in absoluten Zahlen (Millionen) gemessen wird,
+dominiert die größere Skala die Distanzberechnung. Daher ist eine
+Standardisierung zwingend erforderlich.
+
+**Z-Standardisierung:** Transformiert jede Variable auf Mittelwert 0 und
+Standardabweichung 1. Formel: z = (x - μ) / σ. Nach der Standardisierung
+sind alle Variablen gleichwertig.
+
+5.3 Validierung der Ergebnisse
+
+5.3.1 Interne Validierung
+
+Die interne Validierung prüft, ob die gefundenen Cluster statistisch
+sinnvoll sind. Neben dem Silhouette-Score wird die
+Within-Cluster-Varianz betrachtet: Gut separierte Cluster haben geringe
+interne Varianz und hohe externe Varianz (Unterschiede zwischen
+Clustern).
+
+5.3.2 Externe Validierung
+
+Die externe Validierung prüft, ob die Cluster mit bekannten
+Gruppierungen (z.B. Branchen) zusammenhängen. Dazu wird Cramér\'s V
+verwendet -- ein Maß für die Assoziation zwischen kategorialen
+Variablen. Werte \>0.3 gelten als moderate, \>0.5 als starke
+Assoziation.
+
+5.3.3 Robustheitscheck
+
+Da K-Means von der Initialisierung abhängt, wird der Algorithmus
+mehrfach mit verschiedenen Startbedingungen ausgeführt. Die Konsistenz
+der Ergebnisse über verschiedene Durchläufe gibt Aufschluss über die
+Robustheit der gefundenen Struktur.
+
+6\. Erwarteter Beitrag
+
+6.1 Wissenschaftlicher Beitrag
+
+Die Arbeit liefert einen strukturierten Rahmen zur Analyse von
+Kennzahlen-Stabilität als eigenständige Qualitätsdimension. Sie
+erweitert bestehende Ansätze der Earnings-Quality-Forschung auf ein
+breiteres Spektrum von Finanzkennzahlen und bietet eine empirisch
+fundierte Typologisierung von Stabilitätsprofilen.
+
+6.2 Praktischer Nutzen
+
+-   **Für Investoren:** Ein zusätzliches Kriterium zur
+    Unternehmensauswahl und Risikobewertung.
+
+-   **Für Analysten:** Ein Rahmen für aussagekräftigere
+    Peer-Group-Vergleiche.
+
+-   **Für Controller/CFOs:** Erkenntnisse über die Positionierung des
+    eigenen Unternehmens im Stabilitätsspektrum.
+
+7\. Limitationen
+
+Die Arbeit unterliegt bewusst gewählten Einschränkungen:
+
+-   **Quantitativer Fokus:** Qualitative Faktoren (Management,
+    Strategie, Marktposition) werden nicht berücksichtigt.
+
+-   **Historische Daten:** Die Analyse basiert auf vergangenen Daten;
+    Prognosen werden nicht erstellt.
+
+-   **Rechnungslegungsunterschiede:** Internationale Vergleiche können
+    durch unterschiedliche Standards (IFRS, US-GAAP) verzerrt sein.
+
+-   **Keine Kausalanalyse:** Es werden Muster identifiziert, keine
+    kausalen Zusammenhänge nachgewiesen.
+
+-   **Methodische Einfachheit:** Der Fokus auf nachvollziehbare Methoden
+    geht zulasten fortgeschrittener Analyseverfahren.
+
+8\. Vorläufige Gliederung
+
+1.  **Einleitung**
+
+-   Problemstellung und Relevanz
+
+-   Forschungsfragen und Zielsetzung
+
+-   Aufbau der Arbeit
+
+2.  **Theoretische Grundlagen**
+
+-   Kennzahlenanalyse in der Unternehmensbewertung
+
+-   Earnings Quality und Stabilitätskonzepte
+
+-   Konzeptioneller Rahmen dieser Arbeit
+
+3.  **Methodik**
+
+-   Datengrundlage und Stichprobe
+
+-   Stabilitätsmessung
+
+-   Gruppierungsverfahren
+
+-   Validierung
+
+4.  **Empirische Analyse**
+
+-   Deskriptive Statistik
+
+-   Stabilitätsmetriken der Stichprobe
+
+-   Identifikation der Stabilitätsprofile
+
+-   Charakterisierung der Profile
+
+5.  **Diskussion**
+
+-   Interpretation der Ergebnisse
+
+-   Praktische Implikationen
+
+-   Limitationen und Forschungsbedarf
+
+6.  **Fazit und Ausblick**
+
+9\. Zeitplan
+
+  -----------------------------------------------------------------------
+  **Phase**               **Aufgaben**                **Zeitraum**
+  ----------------------- --------------------------- -------------------
+  1\. Vorbereitung        Literatur, Datenakquise,    Woche 1--3
+                          Stichprobe                  
+
+  2\. Datenaufbereitung   Bereinigung,                Woche 4--6
+                          Kennzahlenberechnung        
+
+  3\. Stabilitätsanalyse  Metriken, Gruppierung,      Woche 7--10
+                          Validierung                 
+
+  4\. Interpretation      Charakterisierung,          Woche 11--14
+                          Diskussion                  
+
+  5\. Verschriftlichung   Ausarbeitung, Revision      Woche 15--18
+  -----------------------------------------------------------------------
+
+10\. Vorläufige Literatur
+
+Die folgende Literatur bildet den Ausgangspunkt der theoretischen
+Fundierung:
+
+-   Dechow, P. M., & Dichev, I. D. (2002): The Quality of Accruals and
+    Earnings. The Accounting Review.
+
+-   Francis, J., et al. (2004): Costs of Equity and Earnings Attributes.
+    The Accounting Review.
+
+-   Penman, S. H. (2013): Financial Statement Analysis and Security
+    Valuation. McGraw-Hill.
+
+-   Palepu, K. G., Healy, P. M., & Peek, E. (2019): Business Analysis
+    and Valuation. Cengage.
+
+-   Hastie, T., Tibshirani, R., & Friedman, J. (2009): The Elements of
+    Statistical Learning. Springer.
