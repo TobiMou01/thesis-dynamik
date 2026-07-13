@@ -13,6 +13,9 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# Betreuer-Korrespondenz (personenbezogen, nicht fuer oeffentliches Repo)
+Prof/Mails/*.eml
+
 # OS / editor junk
 .DS_Store
 ~$*.docx
