@@ -1,0 +1,9 @@
+.git
+output/
+data/raw/
+Anhang/data/
+eu_data_fetch/data/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
